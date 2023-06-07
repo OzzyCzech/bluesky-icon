@@ -5,45 +5,34 @@ import {readFile as readFileAsync, writeFile as writeFileAsync} from 'node:fs/pr
 import {Buffer} from 'node:buffer';
 import sharp from "sharp";
 
-/**
- * Write content to the file and create directory if not exists
- *
- * @param {string} file
- * @param {string} content
- * @returns {Promise<*>}
- */
-export async function writeFile(file, content) {
-    if (!existsSync(dirname(file))) {
-        await mkdir(dirname(file), {recursive: true});
-    }
-
-    return;
-}
-
 // read data and optimize SVG
-const src = await readFileAsync("src/bluesky-icon.svg", "utf8");
-const svg = optimize(src, {
+const origin = await readFileAsync("src/bluesky-icon.svg", "utf8");
+const svg = optimize(origin, {
     path: "src/bluesky-icon.svg",
     multipass: true,
 });
 
 const bluesky = {
-    current: svg.data,
+    black: svg.data, // default color variant is black
     white: svg.data.replace('fill="currentColor"', 'fill="#fff"'),
-    black: svg.data.replace('fill="currentColor"', 'fill="#000"'),
+    blue: svg.data.replace('fill="currentColor"', 'fill="#0560ff"'),
 }
 
-const blackIcon = await sharp(Buffer.from(bluesky.black));
-const whiteIcon = await sharp(Buffer.from(bluesky.white));
 
-// save black variants
-await writeFileAsync("dist/bluesky-icon.svg", bluesky.current)
-await blackIcon.toFile("dist/bluesky-icon.png");
-await blackIcon.toFile("dist/bluesky-icon.webp");
+// export all variants
+for (const [variant, src] of Object.entries(bluesky)) {
+    const icon = await sharp(Buffer.from(src));
 
-// save white variants
-await writeFileAsync("dist/bluesky-icon.white.svg", bluesky.white)
-await whiteIcon.toFile("dist/bluesky-icon.white.png");
-await whiteIcon.toFile("dist/bluesky-icon.white.webp");
+    if (variant === "black") {
+        await writeFileAsync("dist/bluesky-icon.svg", src)
+        await icon.toFile("dist/bluesky-icon.png");
+        await icon.toFile("dist/bluesky-icon.webp");
+    } else {
+        await writeFileAsync(`dist/bluesky-icon.${variant}.svg`, src)
+        await icon.toFile(`dist/bluesky-icon.${variant}.png`);
+        await icon.toFile(`dist/bluesky-icon.${variant}.webp`);
+    }
+
+}
 
 console.log("Done!");
