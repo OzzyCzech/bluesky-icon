@@ -4,7 +4,6 @@
   "description": "The unofficial Bluesky icon based on original design by Paul Frazee",
   "repository": "git@github.com:OzzyCzech/blueskyicon.git",
   "main": "index.js",
-  "license": "MIT",
   "type": "module",
   "author": {
     "email": "roman@ozana.cz",
