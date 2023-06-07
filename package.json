@@ -1,0 +1,21 @@
+{
+  "name": "blueskyicon",
+  "version": "1.0.0",
+  "description": "The unofficial Bluesky icon based on original design by Paul Frazee",
+  "repository": "git@github.com:OzzyCzech/blueskyicon.git",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "email": "roman@ozana.cz",
+    "name": "Roman Ožana",
+    "url": "https://ozana.cz"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.32.1",
+    "svgo": "^3.0.2"
+  }
+}
