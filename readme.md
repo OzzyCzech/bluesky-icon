@@ -8,6 +8,12 @@ by [Paul Frazee](https://github.com/pfrazee)
 <img src="src/bluesky-icon.svg" width="480" height="480" alt="Unofficial Bluesky icon">
 </p>
 
+## Examples
+
+Let's check out how it [looks in action](https://play.tailwindcss.com/CmtRuJ8AKD):
+
+![Example](src/example.png)
+
 ## Color variants
 
 Basic version of the icon is [black](dist/bluesky-icon.svg) color. There are also a [white](dist/bluesky-icon.white.svg)
