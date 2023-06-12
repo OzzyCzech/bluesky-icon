@@ -20,7 +20,7 @@ but there is also SVG version in [src](src) folder.
 
 ## How to make changes?
 
-1. Fork and clone this repository
+1. Fork this repository and clone it
 2. Install [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/)
 3. Run `yarn install` to install dependencies
 4. Run `yarn build` to build icons from [source file](src/bluesky-icon.svg)
