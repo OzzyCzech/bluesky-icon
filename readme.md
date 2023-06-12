@@ -4,5 +4,5 @@ The unofficial [Bluesky](https://bsky.app/) icon based on [original design](http
 
 
 <p align="center">
-<img src="src/bluesky-icon.svg" width="256" height="256" alt="Unofficial Bluesky icon">
+<img src="src/bluesky-icon.svg" width="512" height="512" alt="Unofficial Bluesky icon">
 </p>
