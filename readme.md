@@ -3,4 +3,6 @@
 The unofficial [Bluesky](https://bsky.app/) icon based on [original design](https://gist.github.com/pfrazee/cbe8a08e691ca8b0c7702b619e779d71) by [Paul Frazee](https://github.com/pfrazee)
 
 
-![Unofficial Bluesky icon](src/bluesky-icon.svg)
+<center>
+<img src="src/bluesky-icon.svg" width="256" height="256" alt="Unofficial Bluesky icon">
+</center>
