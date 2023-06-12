@@ -2,7 +2,12 @@
 
 The unofficial [Bluesky](https://bsky.app/) icon based on [original design](https://gist.github.com/pfrazee/cbe8a08e691ca8b0c7702b619e779d71) by [Paul Frazee](https://github.com/pfrazee)
 
-
 <p align="center">
-<img src="src/bluesky-icon.svg" width="512" height="512" alt="Unofficial Bluesky icon">
+<img src="src/bluesky-icon.svg" width="480" height="480" alt="Unofficial Bluesky icon">
 </p>
+
+## Color variants
+
+Basic version of the icon is [black](dist/bluesky-icon.svg) color. There is also a [white](dist/bluesky-icon.white.svg) 
+and [blue](dist/bluesky-icon.blue.svg) color variants. Check out [dist](dist) folder for more formats.
+
