@@ -10,7 +10,7 @@ by [Paul Frazee](https://github.com/pfrazee)
 
 ## Color variants
 
-Basic version of the icon is [black](dist/bluesky-icon.svg) color. There is also a [white](dist/bluesky-icon.white.svg)
+Basic version of the icon is [black](dist/bluesky-icon.svg) color. There are also a [white](dist/bluesky-icon.white.svg)
 and [blue](dist/bluesky-icon.blue.svg) color variants. Check out [dist](dist) folder for more formats.
 
 ## Source files
