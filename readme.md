@@ -10,7 +10,7 @@ by [Paul Frazee](https://github.com/pfrazee)
 
 ## Examples
 
-Let's check out how it [looks in action](https://play.tailwindcss.com/CmtRuJ8AKD):
+Let's check out how it [looks in action](https://play.tailwindcss.com/YKDQs9RKCY):
 
 ![Example](src/example.png)
 
