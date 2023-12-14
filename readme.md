@@ -1,8 +1,7 @@
 # Unofficial Bluesky icon
 
-The unofficial [Bluesky](https://bsky.app/) icon based
-on [original design](https://gist.github.com/pfrazee/cbe8a08e691ca8b0c7702b619e779d71)
-by [Paul Frazee](https://github.com/pfrazee)
+The [Bluesky icon](https://bsky.app/) based on [Bluesky APP code](https://github.com/bluesky-social/social-app/commit/d59340017860c9d2ec9f4927b329a9c14dc6f7f7).
+Older butterfly icon was originally designed by [Paul Frazee](https://github.com/pfrazee) and it's [available here](https://gist.github.com/pfrazee/cbe8a08e691ca8b0c7702b619e779d71).
 
 <p align="center">
 <img src="src/bluesky-icon.svg" width="480" height="480" alt="Unofficial Bluesky icon">
