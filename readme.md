@@ -1,4 +1,4 @@
-# Unofficial Bluesky icon
+# Bluesky icon
 
 The [Bluesky icon](https://bsky.app/) based on [Bluesky APP code](https://github.com/bluesky-social/social-app/commit/d59340017860c9d2ec9f4927b329a9c14dc6f7f7).
 
