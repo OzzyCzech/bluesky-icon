@@ -33,4 +33,4 @@ Send PR with your changes.
 
 ## Icon history
 
-Original butterfly icon was designed by [Paul Frazee](https://github.com/pfrazee) and it's [available here](https://gist.github.com/pfrazee/cbe8a08e691ca8b0c7702b619e779d71).
+Butterfly icon was originally designed by [Paul Frazee](https://github.com/pfrazee) and it's [available here](https://gist.github.com/pfrazee/cbe8a08e691ca8b0c7702b619e779d71).
