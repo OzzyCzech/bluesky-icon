@@ -8,7 +8,7 @@ The [Bluesky icon](https://bsky.app/) based on [Bluesky APP code](https://github
 
 ## Examples
 
-Let's check out how it [looks in action](https://play.tailwindcss.com/YKDQs9RKCY):
+Let's check out how it [looks in action](https://play.tailwindcss.com/2kv7sbJR0P):
 
 ![Example](src/example.png)
 

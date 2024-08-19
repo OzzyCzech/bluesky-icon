@@ -15,7 +15,7 @@ const svg = optimize(origin, {
 const bluesky = {
     black: svg.data, // default color variant is black
     white: svg.data.replace('fill="currentColor"', 'fill="#fff"'),
-    blue: svg.data.replace('fill="currentColor"', 'fill="#0560ff"'),
+    blue: svg.data.replace('fill="currentColor"', 'fill="#1185fe"'),
 }
 
 
